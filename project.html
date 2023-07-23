@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./images/duck.ico">
+  <title>I'm Matthew</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print"
+    onload="this.media='all'" />
+
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+  </noscript>
+  
+  <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+
+  <!-- Extra scroll -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body id="top">
+  <header class="bg-color">
+    <nav class="navbar navbar-expand-lg navbar-light bg-color" id="header-nav" role="navigation">
+      <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="index.html">My Resume</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="project.html">More Projects!</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="page-content">
+    <div id="content">
+
+      <div class="wave-top"></div>
+
+      <div class="section px-2 px-lg-4 pt-5" id="projects">
+        <!-- Portfolio Section Start -->
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="font-weight-bold marker marker-center">All Projects </h2>
+          </div>
+          <div class="grid bp-gallery pb-3" data-aos="zoom-in-up" data-aos-delay="100">
+            <div class="grid-sizer"></div>
+            <div class="grid-item"><a href="#ml">
+                <figure class="portfolio-item"><img src="images/projects/ml.png"/></figure>
+              </a></div>
+            <div class="grid-item"><a href="#">
+                <figure class="portfolio-item"><img src="images/projects/pi.png"
+                    data-bp="images/portfolio/4.jpg" /></figure>
+              </a></div>
+            <div class="grid-item"><a href="#serverless">
+                <figure class="portfolio-item"><img src="images/projects/serverless.png"
+                    data-bp="images/projects/detail/serverless.png" /></figure>
+              </a></div>
+            <div class="grid-item"><a href="#wp">
+                <figure class="portfolio-item"><img src="images/projects/wp.png"
+                    data-bp="images/projects/detail/wp.jpg" /></figure>
+              </a></div>
+            <div class="grid-item"><a href="#gas">
+                <figure class="portfolio-item"><img src="images/projects/gas.jpg"
+                    data-bp="images/portfolio/8.jpg" /></figure>
+              </a></div>
+          </div>
+        </div>
+        <!-- Portfolio Section End -->
+      </div>
+
+       <div class="wave-bot flip-y"></div>
+
+       <div class="section px-3 px-lg-4 pt-5 bg-color">
+        <!-- Project Detail Section Start -->
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 class="font-weight-bold marker marker-center">Project Details</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6" id="ml">
+              <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Newsly Machine Learning Back End</h3>
+                      <div class="text-muted text-small">Container Runs on AWS Fargate</div>
+                    </div>
+                    <a class="btn btn-warning shadow-sm mt-1 hover-effect" width="48" height="48" target="_blank" href="https://www.newsly.me">
+                      <i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <img src="images/projects/detail/newsly.png" class = "img-responsive" width = "100%" />
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>A machine-learning module that provides article recommendations to Newsly users. My work scope covers code review, containerizing, deployment to AWS ECS on Fargate cluster, and exporting results to S3 bucket in a timely manner.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" id="gas">
+              <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Fuel Price Web Crawler</h3>
+                      <div class="text-muted text-small">Python App for Cronjob</div>
+                    </div>
+                    <a class="btn btn-warning shadow-sm mt-1 hover-effect" width="48" height="48" target="_blank" href="https://github.com/vegjedi/Vancouver-Gas-Price">
+                      <i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <img src="images/projects/detail/price_crop.png" class = "img-responsive" width = "100%" />
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>A Python app that collect fuel price in selected Canada cities/areas/provinces, with options to email end users and archive data for analaysis.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" id="serverless">
+              <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Event-Driven Serverless Web App</h3>
+                      <div class="text-muted text-small">Utilization of API Gateway and AWS Cognito</div>
+                    </div>
+                    <a class="btn btn-warning shadow-sm mt-1 hover-effect" width="48" height="48" target="_blank" href="https://medium.com/@vcoder/building-an-event-driven-serverless-web-app-secure-scalable-and-seamless-6df2ea4bb343">
+                      <i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <img src="images/projects/detail/serverless.png" class = "img-responsive" width = "100%" />
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>A simple serverless web application that enables users to request unicorn rides. It is built on a solid cloud architecture with Amplify, Lambda, DynamoDB, Cognito, SES, fronted by Route 53, and secured by WAF and SSL connections.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" id="wp">
+              <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">High Availabilty & Secured WordPress</h3>
+                      <div class="text-muted text-small">3-Tier Auto-Scale App on AWS</div>
+                    </div>
+                    <a class="btn btn-warning shadow-sm mt-1 hover-effect" width="48" height="48" target="_blank" href="https://medium.com/@vcoder/highly-available-and-secured-wordpress-on-aws-a-comprehensive-guide-56cbf7808a35">
+                      <i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <img src="images/projects/detail/wp.jpg" class = "img-responsive" width = "100%" />
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>Classical deployment of a highly-available WordPress using ASG EC2, Bastion Host, NAT Gateway, EFS, RDS, ELB, CloudFront, and Route 53.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Detail Section End -->
+      </div>       
+
+  <footer class="pt-4 pb-4 text-center bg-color">
+    <!-- Footer Section Start -->
+    <div class="container">
+      <div class="my-3">
+        <div class="h4 font-weight-bold">Matthew</div>
+        <p class="font-italic">Cloud Engineer & Solution Architect</p>
+        <div class="social-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.linkedin.com/in/luongbm/" title="LinkedIn"><i
+                class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="https://medium.com/@vcoder"
+                title="Medium"><i class="fas fa-blog"></i><span
+                  class="menu-title sr-only">Medium</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/vegjedi"
+                  title="Github"><i class="fab fa-github"></i><span
+                    class="menu-title sr-only">Github</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="#"
+                  title="Email"><i class="fas fa-envelope"></i><span
+                    class="menu-title sr-only">Email</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="text-small text-secondary">
+        <div class="mb-1">Copyright &copy; 2023. All Rights Reserved.</div>
+      </div>
+    </div>
+    <!-- Footer Section End -->
+  </footer>
+
+  </div>
+
+  <!-- Back to Top -->
+  <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i
+          class="fas fa-angle-up fa-x"></i></span></a></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+  <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+  <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+  <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+  <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+  <script src="./scripts/main.js?ver=1.2.0"></script>
+
+  <!-- Extra Scolls -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
