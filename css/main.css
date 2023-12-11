@@ -1,5 +1,6 @@
 html, body {
   overflow-x: hidden;
+  font-family: 'Cormorant Garamond', sans-serif;
 }
 
 .bg-color {
@@ -31,6 +32,8 @@ html {
 
 /* Header */
 .site-title {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 22px;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 3rem;
@@ -44,6 +47,8 @@ html {
 }
 
 .nav-link {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 22px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.8) !important;
 }
@@ -62,6 +67,7 @@ html {
 
 /* Hero (intro) section */
 .intro-title {
+  font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 800;
 }
 
@@ -167,6 +173,7 @@ img.avatar {
 }
 
 .portfolio-item {
+  font-family: 'Cormorant Garamond', sans-serif;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -174,6 +181,7 @@ img.avatar {
 }
 
 .portfolio-item figcaption {
+  font-family: 'Cormorant Garamond', sans-serif;
   position: absolute;
   top: auto;
   bottom: 0;
@@ -186,6 +194,7 @@ img.avatar {
 }
 
 .portfolio-item figcaption h4 {
+  font-family: 'Cormorant Garamond', sans-serif;
   color: #222;
   font-size: 16px;
   text-transform: uppercase;
@@ -194,6 +203,7 @@ img.avatar {
 }
 
 .portfolio-item figcaption p {
+  font-family: 'Cormorant Garamond', sans-serif;
   color: #444;
   font-size: 14px;
   font-weight: 600;
@@ -215,6 +225,8 @@ img.avatar {
 
 /* Footer section */
 footer a:not(.nav-link) {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 33px;
   color: inherit;
   font-weight: 600;
   text-decoration: none;

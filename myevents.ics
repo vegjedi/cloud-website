@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231206T031943Z
+UID:1701832762494-29676@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20240115T183000
+DTEND;TZID=America/Los_Angeles:20240115T213000
+SUMMARY:"The Real Love" Screening Event
+URL:www.thereallovecanada.com
+DESCRIPTION:“THE REAL LOVE: A New Musical” is coming to Canada. Featuring Tony winners Daisy Eagan and Cady Huffman\, directed by LA Drama Critics Circle Award winner Chris Shelton\, and inspired by moving poetry of Supreme Master Ching Hai\, world-renowned spiritual leader\, humanitarian and artist\, this magical show boasts an exceptional cast\, mesmerizing orchestra\, and original compositions by legends like Oscar & 5-time Emmy winner Bill Conti.\n\n“The Real Love” is all you want in a Broadway-style musical: it's captivating\, it's magical\, and above all\, it's soul uplifting.
+LOCATION:Frederic Wood Theatre\, 6354 Crescent Rd\, Vancouver\, BC V6T 1Z2
+END:VEVENT
+END:VCALENDAR
