@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20231206T031943Z
-UID:1701832762494-29676@ical.marudot.com
-DTSTART;TZID=America/Los_Angeles:20240115T183000
-DTEND;TZID=America/Los_Angeles:20240115T213000
+DTSTAMP:20240105T041630Z
+UID:1704427959998-51527@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20240115T173000
+DTEND;TZID=America/Los_Angeles:20240115T203000
 SUMMARY:"The Real Love" Screening Event
 URL:www.thereallovecanada.com
-DESCRIPTION:“THE REAL LOVE: A New Musical” is coming to Canada. Featuring Tony winners Daisy Eagan and Cady Huffman\, directed by LA Drama Critics Circle Award winner Chris Shelton\, and inspired by moving poetry of Supreme Master Ching Hai\, world-renowned spiritual leader\, humanitarian and artist\, this magical show boasts an exceptional cast\, mesmerizing orchestra\, and original compositions by legends like Oscar & 5-time Emmy winner Bill Conti.\n\n“The Real Love” is all you want in a Broadway-style musical: it's captivating\, it's magical\, and above all\, it's soul uplifting.
-LOCATION:Frederic Wood Theatre\, 6354 Crescent Rd\, Vancouver\, BC V6T 1Z2
+DESCRIPTION:“THE REAL LOVE: The Musical” is coming to Canada\, starting with Vancouver.\n\nFeaturing Tony winners Daisy Eagan and Cady Huffman\, directed by LA Drama Critics Circle Award winner Chris Shelton\, and inspired by moving poetry of Supreme Master Ching Hai\, world-renowned spiritual leader\, humanitarian and artist\, this magical show boasts an exceptional cast\, mesmerizing orchestra\, and original compositions by legends like Oscar & 5-time Emmy winner Bill Conti.\n\nWhat's more? Event Tickets and Vegan Feast are FREE with a limited number of seats.
+LOCATION:Frederic Wood Theatre - 6354 Crescent Rd\, Vancouver\, BC V6T 1Z2
 END:VEVENT
 END:VCALENDAR
